@@ -1,0 +1,80 @@
+ * {
+  font-family: 'Pompiere', cursive;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+body {
+margin:0;
+padding:0;
+background: url('../img/home.jpg') no-repeat center center fixed;
+}
+.logo {
+  margin-top: 50px;
+}
+.coming-soon {
+  color: #fff;
+}
+.description {
+  margin-top: 25px;
+  color: #fff;
+  font-size: 16px;
+}
+.address-header {
+  color: #fff;
+}
+.address {
+  color: #fff;
+  font-size: 16px;
+}
+.hours-header {
+  color: #fff;
+}
+.hours {
+  font-size: 16px;
+  color: #fff;
+}
+.contact-header {
+  color: #fff;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #0471DE;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s linear;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #00B7FF;
+}
+.frosty {
+  background:rgba(0,0,0, 0.5);
+  color: white;
+  border-radius: 10px;
+}
+.phone {
+  color: #fff;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .frosty {
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
