@@ -1,42 +1,33 @@
  * {
   font-family: 'Pompiere', cursive;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
 }
 body {
-margin:0;
-padding:0;
-background: url('../img/home.jpg') no-repeat center center fixed;
+  margin:0;
+  padding:0;
+  background: url(../img/home.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .logo {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .coming-soon {
-  color: #fff;
+  font-weight: 900;
 }
 .description {
   margin-top: 25px;
-  color: #fff;
-  font-size: 16px;
-}
-.address-header {
-  color: #fff;
+  font-size: 18px;
 }
 .address {
-  color: #fff;
   font-size: 16px;
-}
-.hours-header {
-  color: #fff;
 }
 .hours {
   font-size: 16px;
-  color: #fff;
 }
-.contact-header {
-  color: #fff;
-}
-
 ul.social-buttons {
   margin-bottom: 0;
 }
@@ -48,7 +39,7 @@ ul.social-buttons li a {
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
-  color: white;
+  color: #fff;
   outline: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -59,22 +50,43 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #00B7FF;
 }
-.frosty {
-  background:rgba(0,0,0, 0.5);
-  color: white;
-  border-radius: 10px;
-}
-.phone {
-  color: #fff;
+a {
+  color: inherit;
 }
 a:hover, a:focus {
   text-decoration: underline;
+  color: #000;
+}
+.fa {
   color: #fff;
 }
+.social-header {
+  font-size: 22px;
+}
+
+/*Media Queries*/
 @media (max-width: 767px) {
-  .frosty {
-    margin-bottom: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+* {
+  color: #fff;
+}
+body {
+  margin:0;
+  padding:0;
+  background: url(../img/xs.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .address-block {
+    margin-top: 20px;
+  }
+  .hours-block {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 767px) {
+.newsletter-block {
+  margin-top: -70px;
   }
 }
